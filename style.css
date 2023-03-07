@@ -1,0 +1,88 @@
+*{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                overflow: hidden;
+                font-family: 'Roboto Slab', serif;
+}
+
+
+body{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/pexels-maxyne-barcel-10402282\ 1.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+}
+
+.nav-bar{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 45px;
+                cursor: pointer;
+                padding: 0 60px;
+}
+
+
+.nav-bar ul{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 50px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #ffc233;  /* use color picker*/
+
+}
+
+.btn-1{
+                padding: 12px 40px;
+                font-size: 24px;
+                font-weight: 700;
+                background-color: #ff515f;
+                border: none;
+                color: white;
+                cursor: pointer;
+}
+
+.main-section{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                height: 60vh;
+                margin: 30px
+
+}
+
+.main-section h1{
+                font-size:  80px;
+                font-weight: 900;
+                text-align: center;
+                line-height: 85px ;
+                font-family: 'Eczar', serif;
+                color:#ffc233;
+
+}
+
+.btn-2{
+                font-size: 24px;
+                font-weight: 500;
+                background-color: #ff515f;
+                color: white;
+                padding: 10px 30px;
+                border: none;
+                cursor: pointer;
+}
+
+footer {
+                display: flex;
+                justify-content: flex-end;
+}
+
+footer img{
+                height: 200px;
+                margin: 15px;
+}
